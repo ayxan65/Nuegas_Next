@@ -12,7 +12,9 @@ const config: Config = {
         "red":'red',
         "second":'#8E92BC',
         "grey":'#F5F5F7',
-        "white":'#fff'
+        "white":'#fff',
+        "third":'#E3E3E3',
+        "text":"#363636"
     },
     extend: {
       backgroundImage: {

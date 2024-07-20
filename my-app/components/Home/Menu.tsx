@@ -24,21 +24,21 @@ const Menu = () => {
   ];
 
   return (
-    <div className="w-[15vw]  h-[94vh]">
-      <div className="flex">
+    <div className="w-[17vw]  h-[94vh] bg-white sm:hidden md:hidden lg:block xl:block">
+      <div className="flex  p-2 px-4  ">
         <Image alt="logo" src={Logo} width={36} height={36} />
         <div className="text-black font-semibold text-4xl ml-2">
           <Link href="/">Nuegas</Link>
         </div>
       </div>
-      <div className="p-3 mt-7">
+      <div className="p-3  mt-7">
         {menuItems.map((item) => (
           <div
             key={item.href}
             className={
               currentPath === item.href
-                ? "flex items-center gap-3 bg-grey rounded-lg"
-                : "flex items-center gap-3"
+                ? "flex items-center gap-3 px-2  bg-grey rounded-lg"
+                : "flex items-center gap-3 px-2 "
             }
           >
             <Image
@@ -53,8 +53,8 @@ const Menu = () => {
             <div
               className={
                 currentPath === item.href
-                  ? "text-black font-semibold"
-                  : "text-second font-semibold"
+                  ? "text-black text-sm font-semibold"
+                  : "text-second text-sm font-semibold"
               }
             >
               <Link href={item.href}>{item.label}</Link>
