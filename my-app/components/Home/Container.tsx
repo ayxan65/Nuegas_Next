@@ -1,6 +1,7 @@
 import React from 'react'
 import Menu from './Menu'
-import DashBoard from './NavBar'
+import DashBoard from './DashBoard'
+
 
 const Container = () => {
   return (
@@ -9,6 +10,7 @@ const Container = () => {
 
       <Menu/>
       <DashBoard/>
+
       </div>
         
     </div>

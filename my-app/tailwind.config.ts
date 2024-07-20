@@ -14,7 +14,8 @@ const config: Config = {
         "grey":'#F5F5F7',
         "white":'#fff',
         "third":'#E3E3E3',
-        "text":"#363636"
+        "text":"#363636",
+        "coal":"#141522"
     },
     extend: {
       backgroundImage: {

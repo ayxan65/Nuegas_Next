@@ -5,7 +5,7 @@ import avatar from '../../public/DashBoard/Avatar.svg';
 
 const NavBar = () => {
   return (
-    <div className="w-[55vw] h-[10vh] bg-grey sm:p-[8vw] lg:p-4 flex justify-between items-center">
+    <div className="mx-2 w-[55vw] h-[10vh] bg-grey   flex justify-between items-center">
       <div>
         <div className="text-black text-3xl font-semibold">
           Hi, Skyler Dias
