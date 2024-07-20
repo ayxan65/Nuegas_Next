@@ -10,7 +10,9 @@ const config: Config = {
     "colors":{
         "black":"#141522",
         "red":'red',
-        "second":'#8E92BC'
+        "second":'#8E92BC',
+        "grey":'#F5F5F7',
+        "white":'#fff'
     },
     extend: {
       backgroundImage: {
