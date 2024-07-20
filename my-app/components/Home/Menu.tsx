@@ -9,6 +9,8 @@ import icon2 from "../../public/Menu/icon2.svg";
 import icon3 from "../../public/Menu/icon3.svg";
 import icon4 from "../../public/Menu/icon4.svg";
 import icon5 from "../../public/Menu/icon5.svg";
+import Help from "./Help";
+
 
 const Menu = () => {
   const currentPath = usePathname();
@@ -22,7 +24,7 @@ const Menu = () => {
   ];
 
   return (
-    <div className="w-[15vw] border h-[94vh]">
+    <div className="w-[15vw]  h-[94vh]">
       <div className="flex">
         <Image alt="logo" src={Logo} width={36} height={36} />
         <div className="text-black font-semibold text-4xl ml-2">
@@ -44,14 +46,23 @@ const Menu = () => {
               src={item.icon}
               width={32}
               height={32}
-              className={currentPath === item.href ? "py-2" : "color-second py-2"}
+              className={
+                currentPath === item.href ? "py-2" : "color-second py-2"
+              }
             />
-            <div className={currentPath === item.href ? "text-black font-semibold" : "text-second font-semibold"}>
+            <div
+              className={
+                currentPath === item.href
+                  ? "text-black font-semibold"
+                  : "text-second font-semibold"
+              }
+            >
               <Link href={item.href}>{item.label}</Link>
             </div>
           </div>
         ))}
       </div>
+  <Help/>
     </div>
   );
 };

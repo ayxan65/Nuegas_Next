@@ -3,3 +3,10 @@
 @tailwind utilities;
 
 
+.gradient-background {
+    background: linear-gradient(135deg, #111111, #111111);
+
+    width: 100%;
+    height: 40vh;
+  }
+  
