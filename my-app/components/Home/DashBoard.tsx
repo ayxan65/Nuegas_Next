@@ -1,12 +1,12 @@
 import React from 'react'
 import NavBar from './NavBar'
-import Activity from './Activity'
+import Task from './Task'
 
 const DashBoard = () => {
   return (
-    <div className='block p-4 '>
+    <div className='block px-4 '>
     <NavBar/>
-    <Activity/>
+    <Task/>
     </div>
   )
 }
