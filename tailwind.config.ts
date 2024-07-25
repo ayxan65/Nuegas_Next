@@ -16,8 +16,8 @@ const config: Config = {
         "third":'#E3E3E3',
         "text":"#363636",
         "coal":"#141522",
-        "active":"#e9e9e9",
-        "gray":"#353535",
+        "active":"#F5F5F7",
+        "gray":"#FAFAFA",
         "purple":"#546FFF"
         
     },
