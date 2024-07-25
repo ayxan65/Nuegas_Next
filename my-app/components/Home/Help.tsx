@@ -6,7 +6,7 @@ const Help = () => {
   return (
 
       <div className="flex items-center justify-center mt-10 mx-3">
-      <div className="relative bg-black rounded-lg shadow-lg p-6 text-white w-80">
+      <div className="relative bg-black rounded-lg shadow-lg p-6 text-white ">
         <div className="absolute top-[-24px] left-1/2 transform -translate-x-1/2  rounded-full p-2 shadow-lg">
           <Image
             src={question}
@@ -17,7 +17,7 @@ const Help = () => {
           />
         </div>
         <h2 className="mt-12 mb-6 text-xl font-semibold text-center ">Help Center</h2>
-        <p className="mt-2 mb-4 text-center">
+        <p className="mt-2 mb-4 text-center font-light ">
           Having Trouble in Learning. Please contact us for more questions.
         </p>
      <div className="flex justify-center">
