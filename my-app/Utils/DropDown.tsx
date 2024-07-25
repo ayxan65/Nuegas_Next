@@ -28,11 +28,11 @@ const DropDown = () => {
         {
             isOpen && (
               
-               <div  >
+               <div className=' absolute w-10 h-10' >
                 {options.map(option => (
           <button
             key={option}
-            className="block p-2"
+            className="block p-2 bg-second w-10"
             onClick={() => selectOption(option)}
           >
             {option}

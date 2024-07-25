@@ -3,6 +3,7 @@ import Image from 'next/image';
 import DropDown from '../../Utils/DropDown';
 import Task from '../../public/Activity/task.svg';
 import graph from '../../public/Activity/Graph.svg';
+import point from "../../public/Activity/point.svg";
 
 const Activity = () => {
   return (
@@ -15,8 +16,13 @@ const Activity = () => {
               
             </div>
             </div>
-            <Image width={500} className='m-auto mt-7' alt='graph' src={graph}></Image>
-            <Image alt='task' className='bg-red absolute top-10' src={Task} ></Image>
+           <div > <Image width={500} className='m-auto mt-7' alt='graph' src={graph}></Image>
+          
+           <Image alt='task' className=' relative bottom-[10.5vw] left-[8.2vw]' src={Task} ></Image>
+           <Image alt='point' src={point} className=' relative bottom-[10.5vw] left-[10.1vw]'></Image>
+           
+           </div>
+            
 
         </div>
     </div>
