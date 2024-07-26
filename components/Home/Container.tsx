@@ -6,8 +6,8 @@ import DashBoard from './DashBoard'
 
 const Container = () => {
   return (
-    <div className='bg-gray h-[100vh]' >
-      <div className='  m-auto flex pt-[1.5em]  '>
+    <div className='bg-gray' >
+      <div className='  m-auto flex pt-[1.5em] overflow-hidden   '>
 
       <Menu/>
       <DashBoard/>

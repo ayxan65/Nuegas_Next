@@ -13,3 +13,7 @@
 .text-red{
   color: #546FFF;
 }  
+.upcoming{
+  overflow-y: auto;
+  overflow-x: hidden;
+}
