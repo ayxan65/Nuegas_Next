@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
+body{
+  overflow: hidden;
+}
 .gradient-background {
     background: linear-gradient(135deg, #111111, #111111);
 

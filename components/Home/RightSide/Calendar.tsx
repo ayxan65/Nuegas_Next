@@ -7,21 +7,21 @@ import { useState } from 'react';
 const Calendar = () => {
   const [date, setdate] = useState<Date>()
   return (
-    <div className="bg-white p-4 rounded-lg  shadow-md">
+    <div className="bg-white p-4 rounded-lg h-[44vh] overflow-hidden  shadow-md">
       <DayPicker
       className='overflow-hidden '
       mode='single'
        selected={date}
        onSelect={setdate}
         classNames={{
-          day: 'w-[20vw] flex h-10 flex  overflow-hidden items-center justify-center rounded-full',
-          selected: 'bg-purple text-white',
-          today: 'text-black font-bold bg-purple w-[3vw] h-[3vw] rounded-full',
+          day: ' overflow-hidden flex-wrap',
+          selected: 'bg-purple text-white font-semibold rounded-full',
+          today: 'text-purple font-semibold  ',
           nav_button: 'text-purple  p-1 rounded-full',
           caption: 'text-xl text-center mb-4',
           head_row: 'flex justify-between mb-2',
           head_cell: 'w-10 text-center text-gray-500',
-          row: 'flex justify-between',
+          row: '',
           cell: 'w-10 h-10 flex items-center justify-center',
           
         }}
