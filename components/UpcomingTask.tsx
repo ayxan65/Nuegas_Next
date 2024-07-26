@@ -37,6 +37,7 @@ const UpcomingTask = () => {
                 <p className='text-sm text-text'>{desc}</p>
                 <div className='mt-2 font-semibold text-black'>Progress</div>
                 <Slider  
+                
                 defaultValue={75}
                 valueLabelDisplay='auto'
                 sx={{"color":'#546FFF',

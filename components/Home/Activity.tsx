@@ -7,7 +7,7 @@ import point from "../../public/Activity/point.svg";
 
 const Activity = () => {
   return (
-    <div className='h-[30vh] w-10/12 bg-active   rounded-xl'>
+    <div className='h-[30vh] w-10/12 bg-active bg-grey   rounded-xl'>
         <div className='p-5'>
             <div className=' flex justify-between '><div className='font-semibold text-xl'>
             Activity</div>
