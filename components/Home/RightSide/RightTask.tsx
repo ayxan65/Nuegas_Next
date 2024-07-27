@@ -35,6 +35,7 @@ const RightTask = () => {
                 <Slider  
                 
                 defaultValue={90}
+                
                 valueLabelDisplay='auto'
                 sx={{"color":'#546FFF',
                  '& .MuiSlider-rail': {
@@ -45,7 +46,7 @@ const RightTask = () => {
                      backgroundColor:'white'
                    },
                height:'8.5px',
-               width:'22vw'
+              
              }
                }
                 
