@@ -21,11 +21,12 @@ const RightTask = () => {
 
   return (
     <div>
-    <div className='text-xl font-semibold mt-5 '>Task Today</div>
+    <div className='text-xl font-semibold mt-5 lg:ml-0 ml-12  '>Task Today</div>
+ <div className='flex justify-center lg:block'>
  <div  className='flex justify-between mt-5'>
  {
        Data.map(({img, time, desc, title}, index) => (
-            <div key={index} className=' w-[26vw] mb-5 rounded-lg  bg-white p-4'>
+            <div key={index} className=' lg:w-[25svw] mb-5 rounded-lg  bg-white p-4'>
                
                <Image alt='photo' className='pt-2' width={340} src={img}></Image>
                 <p className='mt-4 font-semibold text-black'>{title}</p>
@@ -57,6 +58,7 @@ const RightTask = () => {
             </div>
        ))
     }
+ </div>
  </div>
 </div>
 

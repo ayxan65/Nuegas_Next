@@ -7,7 +7,7 @@ import { useState } from 'react';
 const Calendar = () => {
   const [date, setdate] = useState<Date>()
   return (
-    <div className="bg-white p-4 rounded-lg h-[44vh] overflow-hidden  shadow-md">
+    <div className="bg-white h-[50svh] w-[72svw] m-auto lg:m-0 lg:w-[23svw] p-4 rounded-lg lg:h-[44vh] overflow-hidden  shadow-md">
       <DayPicker
       className='overflow-hidden '
       mode='single'
