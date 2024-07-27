@@ -35,22 +35,22 @@ const Mentors = () => {
     return (
         <div className='mt-5 '>
             <div className='text-2xl font-semibold my-4'>Monthly Mentors</div>
-         <div className='flex justify-between'>
+         <div className=' block lg:flex lg:justify-between'>
          {Data.map(({ name, job, star, task, img }) => (
-            <div className='h-[20vh] w-[25vw] bg-white rounded-lg mt-3 ' key={name}> 
+            <div className=' h-[20vh]  lg:h-[20vh] lg:w-[25vw] bg-white rounded-lg mt-3 ' key={name}> 
             <div className='p-6'>
            <div className='flex items-center gap-4'>
            <Image alt='img' src={img}></Image>
              <div>
              <div className='font-semibold'>{name}</div>
-             <div className='text-gray'>{job}</div>
+             <div className='text-text'>{job}</div>
              </div>
             <div className='ml-16'> <FollowButton/></div>
            </div>
-             <div className='flex justify-between mt-5'>
+             <div className=' flex justify-between mt-5'>
              <div className='flex gap-2'><Image alt='task' src={taskimg}></Image>
               {task}</div>
-             <div className='flex gap-2'><Image alt='star' src={starimg}></Image>
+             <div className=' flex gap-2'><Image alt='star' src={starimg}></Image>
               {star}</div>
              </div>
             </div>

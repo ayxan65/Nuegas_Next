@@ -24,7 +24,7 @@ const Menu = () => {
   ];
 
   return (
-    <div className="w-[17vw]  h-[94vh] bg-white lg:block xl:block">
+    <div className="hidden sm:hidden md:hidden lg:block lg:w-[17vw]  h-[94vh] bg-white">
       <div className="flex  p-2 px-4  ">
         <Image alt="logo" src={Logo} width={36} height={36} />
         <div className="text-black font-semibold text-4xl ml-2">
