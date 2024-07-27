@@ -20,18 +20,18 @@ const Activity = () => {
         <div>
           {" "}
           <Image className="m-auto mt-7" alt="graph" src={graph}></Image>
-          <Image
+          {/* <Image
             alt="task"
-            className="relative left-[12.5vw] bottom-[20vh]
-             lg:relative lg:bottom-[10vw] lg:left-[9.4vw]"
+            className=" ml-[12.5vw] mb-[20vh]
+             lg:mb-[10vw] lg:ml-[9.4vw]"
             src={Task}
           ></Image>
           <Image
             alt="point"
             src={point}
-            className="relative left-[18vw] bottom-[22vh] 
-            lg:relative lg:bottom-[10vw] lg:left-[11.2vw]"
-          ></Image>
+            className=" ml-[18vw] mb-[22vh] 
+            lg:mb-[10vw] lg:ml-[11.2vw]"
+          ></Image> */}
         </div>
       </div>
     </div>
