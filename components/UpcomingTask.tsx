@@ -27,10 +27,10 @@ const UpcomingTask = () => {
   return (
 <div>
     <div className='text-xl font-semibold mt-5 '>Upcoming Tasks</div>
- <div  className='flex justify-between mt-5'>
+ <div  className='block lg:flex lg:justify-between mt-5'>
  {
        Data.map(({img, time, desc, title}, index) => (
-            <div key={index} className=' w-[26vw] mb-5 rounded-lg  bg-white p-4'>
+            <div key={index} className=' lg:w-[26vw] lg:mb-5 rounded-lg  bg-white p-4 my-2'>
                
                <Image alt='photo' className='pt-2' width={400} src={img}></Image>
                 <p className='mt-4 font-semibold text-black'>{title}</p>
